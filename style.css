@@ -13,7 +13,7 @@ body{
     );
 }
 .clock{
-    background: black;
+    background: rgb(248, 230, 29);
     height: 320px;
     width: 320px;
     position: absolutet;
@@ -23,5 +23,34 @@ body{
     border-radius: 50%;
     border: 15px solid rgb(7, 26, 240);
     box-sizing: content-box;
-    box-shadow: ;
+    box-shadow:15px 15px 15px  black;
+    inset: 0 0 30px black;
+}
+img{
+    position:relative;
+    height: 320px;
+    width: 320px;
+
+}
+
+.hand{
+    position: absolute;
+    background-color: black;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    transform-origin: bottom;
+}
+
+.hour{
+    height: 70px;
+    width: 10px;
+    top: 100px;
+}
+
+.minute{
+    height: 90px;
+    width: 5px;
+    top: 80px;
 }
